@@ -1,0 +1,6 @@
+# Environment variables
+.env
+
+# Firebase service account keys
+config/serviceAccountKey.json
+src/config/serviceAccountKey.json
