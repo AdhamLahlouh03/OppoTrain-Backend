@@ -4,3 +4,4 @@
 # Firebase service account keys
 config/serviceAccountKey.json
 src/config/serviceAccountKey.json
+node_modules
