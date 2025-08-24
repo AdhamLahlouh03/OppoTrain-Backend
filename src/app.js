@@ -2,7 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const dotenv = require('dotenv');
 
-// Import routes
+//  import routes
 const resourceRoutes = require('./routes/resourceRoutes');
 
 // Load environment variables

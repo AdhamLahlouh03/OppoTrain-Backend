@@ -1,3 +1,4 @@
+// src/services/resourceService.js
 const { 
   collection, 
   doc, 

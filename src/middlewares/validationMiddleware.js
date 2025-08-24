@@ -1,6 +1,6 @@
 const Resource = require('../models/Resource');
 
-// Validate resource creation/update
+// validate resource creation/update
 const validateResource = (req, res, next) => {
   try {
     const { title, type, description, guest, websiteUrl } = req.body;

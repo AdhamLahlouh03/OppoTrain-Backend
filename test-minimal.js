@@ -11,7 +11,7 @@ app.get('/test', (req, res) => {
   res.json({ message: 'Test route working' });
 });
 
-// Health check
+// Health check endpoint
 app.get('/health', (req, res) => {
   res.json({ status: 'OK' });
 });

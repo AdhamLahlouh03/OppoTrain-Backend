@@ -29,7 +29,7 @@ class ResourceController {
     }
   }
 
-  // Get resource by ID
+  // Get resource by ID - working
   async getResourceById(req, res) {
     try {
       const { id } = req.params;

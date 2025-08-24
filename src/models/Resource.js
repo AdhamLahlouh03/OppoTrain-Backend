@@ -1,3 +1,4 @@
+// src/models/Resource.js
 class Resource {
   constructor(data) {
     this.title = data.title;

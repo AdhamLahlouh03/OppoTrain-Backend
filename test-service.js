@@ -1,5 +1,5 @@
 const resourceService = require('./src/services/resourceService');
-
+ 
 console.log('Testing Resource Service...');
 
 async function testService() {
@@ -12,5 +12,5 @@ async function testService() {
     console.error('Full error:', error);
   }
 }
-
+// test the service
 testService();

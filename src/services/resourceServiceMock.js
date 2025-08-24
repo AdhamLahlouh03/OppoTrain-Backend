@@ -1,5 +1,5 @@
 const Resource = require('../models/Resource');
-
+// src/services/resourceServiceMock.js
 class ResourceServiceMock {
   constructor() {
     this.resources = [

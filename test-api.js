@@ -3,7 +3,7 @@ const axios = require('axios');
 const BASE_URL = 'http://localhost:3000/api';
 const resources = [];
 
-// Test data
+// Test data for the API
 const testResource = {
   title: "Introduction to AI",
   type: "Youtube Video",

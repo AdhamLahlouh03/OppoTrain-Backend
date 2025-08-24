@@ -1,6 +1,7 @@
 const express = require('express');
 const resourceController = require('../controllers/resourceController');
 
+// src/routes/resourceRoutes.js
 const router = express.Router();
 
 // GET /api/resources - Get all resources
