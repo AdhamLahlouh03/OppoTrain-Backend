@@ -4,8 +4,9 @@
   "main": "index.js",
   "scripts": {
     "start": "node src/app.js",
-    "dev": "nodemon src/app.js"
-},
+    "dev": "nodemon src/app.js",
+    "create-admin": "node src/scripts/createAdmin.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AdhamLahlouh03/OppoTrain-Backend.git"
@@ -22,7 +23,8 @@
     "cors": "^2.8.5",
     "dotenv": "^17.2.1",
     "express": "^5.1.0",
-    "firebase": "^12.1.0"
+    "firebase-admin": "^13.4.0",
+    "jsonwebtoken": "^9.0.2"
   },
   "devDependencies": {
     "nodemon": "^3.1.10"
